@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+polygon { 
+  fill: rgba(0, 0, 0, 0); 
+  stroke-width: 0.5;
+  stroke: rgb(0,0,0);
+}
+
 body {
     margin: 0;
     padding: 0;

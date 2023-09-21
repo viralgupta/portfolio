@@ -30,7 +30,7 @@ const Projects = () => {
                         <img className="h-40 rounded w-full object-cover object-center mb-6" src="Assets/Projects/yso.png" alt="content" />
                         <h3 className="tracking-widest text-green-500 text-xs font-medium title-font">WebDev</h3>
                         <a href='https://youtube-subscription-only.vercel.app/' target='_blank' rel="noreferrer" className="text-lg hover:text-blue-700 text-green-100 font-medium title-font mb-4">Youtube Subscription Only</a>
-                        <p className="leading-relaxed text-base">Simple web <applet></applet> to get your Youtube Subscription Feed, to help you get over distractions, Implemented OAuth2.0</p>
+                        <p className="leading-relaxed text-base">Simple website to get your Youtube Subscription Feed, to help you get over distractions, Implemented using OAuth2.0</p>
                     </div>
                 </div>
                 <div className="xl:w-1/4 md:w-1/2 pr-2 pb-2">
