@@ -26,7 +26,7 @@ const Background = () => {
           <rect width="100%" height="100%" fill="url(#hexagons)" />
         </svg>
       </div>
-      <div className='fixed md:hidden flex items-center bg-opacity-80 z-50 w-full h-full bg-black text-white text-center p-20 font-mono'> Please Switch to a Larger Device to View the content.</div>
+      <div className='fixed md:hidden flex items-center bg-opacity-95 z-50 w-full h-full bg-black text-white text-center p-20 font-mono'> Please Switch to a Larger Device to View the content.</div>
     </>
   )
 }
