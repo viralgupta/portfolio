@@ -6,7 +6,7 @@ const LeftCanvas = () => {
     return (
         <>
             <div className="w-1/3 fixed z-20 top-0 h-full">
-                <Model opacityconstant={1} />
+                <Model opacityconstant={1} zoomLevel={window.innerWidth > 1280 ? 10 : 8 }/>
             </div>
             <div className="text-white p-10 z-0 top-0 fixed w-1/3 h-full flex flex-col justify-end">
                 <div className="font-serif text-3xl">

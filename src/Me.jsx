@@ -5,7 +5,7 @@ import {
 import { useGLTF } from "@react-three/drei";
 import { useState } from "react";
 
-function Model({ opacityconstant }) {
+function Model({ opacityconstant, zoomLevel }) {
   const gltf = useGLTF("/me.glb");
   const [opacity, setOpacity] = useState(1);
   let vertices = [];
@@ -44,7 +44,7 @@ function Model({ opacityconstant }) {
   return (
     <div className="canvas h-[100%] w-full">
       <Canvas
-        camera={{ fov: 75, near: 0.1, far: 100, position: [0, 5, 0], zoom: 10 }}
+        camera={{ fov: 75, near: 0.1, far: 100, position: [0, 5, 0], zoom: zoomLevel }}
         style={{ width: `100%`, height: `100%`, position: "relative" }}
         dpr={Math.min(window.devicePixelRatio, 2)}
       >
