@@ -4,7 +4,8 @@ import {
   SiAdobeaftereffects,
   SiArduino,
   SiRaspberrypi,
-  SiPython
+  SiPython,
+  SiAutodesk
 } from "react-icons/si";
 
 function Toolstack() {
@@ -17,6 +18,9 @@ function Toolstack() {
       </div>
       <div className="flex flex-wrap space-x-5 space-y-5">
         <span></span>
+        <div xs={4} md={2} className="p-5 w-min rounded-md border hover:scale-105 hover:border-green-300">
+          <SiAutodesk size={50} />
+        </div>
         <div xs={4} md={2} className="p-5 w-min rounded-md border hover:scale-105 hover:border-green-300">
           <SiAdobepremierepro size={50} />
         </div>
