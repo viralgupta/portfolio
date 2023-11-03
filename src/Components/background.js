@@ -3,7 +3,7 @@ import React from 'react'
 const Background = () => {
   return (
     <>
-      <div className='fixed inset-0 w-full h-full z-[-1] opacity-50' id='polygonshehe'>
+      <div className='fixed inset-0 w-full h-full z-[-30] opacity-50 md:block hidden' id='polygonshehe'>
         <svg width="100%" height="100%">
           <defs>
             <pattern
@@ -12,6 +12,7 @@ const Background = () => {
               height={43.4}
               patternUnits="userSpaceOnUse"
               patternTransform="scale(2) rotate(45)"
+              color='white'
             >
               <polygon
                 points="24.8,22 37.3,29.2 37.3,43.7 24.8,50.9 12.3,43.7 12.3,29.2"
@@ -26,7 +27,7 @@ const Background = () => {
           <rect width="100%" height="100%" fill="url(#hexagons)" />
         </svg>
       </div>
-      <div className='fixed md:hidden flex items-center bg-opacity-95 z-50 w-full h-full bg-black text-white text-center p-20 font-mono'> Please Switch to a Larger Device to View the content.</div>
+      {/* <div className='fixed md:hidden flex items-center bg-opacity-95 z-50 w-full h-full bg-black text-white text-center p-20 font-mono'> Please Switch to a Larger Device to View the content.</div> */}
     </>
   )
 }

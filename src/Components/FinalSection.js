@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const FinalSection = () => {
     const showEmail = () => {
         toast.info('Email at vg6796@srmist.edu.in', {
-            position: "bottom-right",
+            position: "bottom-center",
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: false,
@@ -21,7 +21,7 @@ const FinalSection = () => {
     return (
         <>
             <ToastContainer
-                position="bottom-right"
+                position="bottom-center"
                 autoClose={5000}
                 hideProgressBar={false}
                 newestOnTop={false}
@@ -32,15 +32,15 @@ const FinalSection = () => {
                 theme="dark"
             />
             <br />
-            <div className='w-full flex justify-around'>
+            <div className='w-full flex justify-around text-sm'>
                 <a href='https://drive.google.com/file/d/1h4v7lTHozBxVuLU67frM3yhgZWeGlaRZ/view?usp=sharing' target='_blank' rel="noreferrer" className='flex items-center p-2 rounded-md border-green-100 border-2'>
-                    Download CV &nbsp; <AiOutlineDownload />
+                    Download&nbsp;CV&nbsp;<AiOutlineDownload />
                 </a>
                 <button onClick={showEmail} className='flex items-center p-2 rounded-md border-green-100 border-2'>
-                    Contact Me &nbsp; <TiContacts />
+                    Contact&nbsp;Me&nbsp;<TiContacts />
                 </button>
                 <a href='https://www.github.com/viralgupta/portfolio' target='_blank' rel="noreferrer" className='flex items-center p-2 rounded-md border-green-100 border-2'>
-                    Fork this Repo &nbsp; <CgGitFork />
+                    Fork&nbsp;This&nbsp;Repo&nbsp;<CgGitFork />
                 </a>
             </div>
             <br />
