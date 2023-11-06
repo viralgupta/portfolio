@@ -6,11 +6,10 @@ function Github() {
   const size = windowWidth < 768 ? 8 : 16;
   return (
     <>
-    {window.innerWidth > 768 && <br/>}
-      <br />
+    <br />
       <div >
-        <div className="project-heading text-xl md:text-3xl pb-2 md:pb-8 font-mono font-extrabold" >
-          Days I <strong className="text-green-100">Code</strong>
+        <div className="project-heading text-xl md:text-3xl pb-3 md:pb-8 font-mono font-extrabold" >
+          Github <strong className="text-green-100">History</strong>
         </div>
         <div className="md:px-5">
           <GitHubCalendar

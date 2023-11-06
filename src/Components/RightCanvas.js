@@ -6,6 +6,7 @@ import Github from './Github'
 import Projects from './Projects'
 import FinalSection from './FinalSection'
 import Achievements from './Achievements'
+import AskMe from './AskMe'
 
 const RightCanvas = () => {
     return (
@@ -15,6 +16,7 @@ const RightCanvas = () => {
             <Toolstack/>
             <Achievements/>
             <Projects/>
+            {/* <AskMe/> */}
             <Github/>
             <FinalSection/>
         </div>

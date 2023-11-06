@@ -32,14 +32,14 @@ const FinalSection = () => {
                 theme="dark"
             />
             <br />
-            <div className='w-full flex justify-around text-sm'>
-                <a href='https://drive.google.com/file/d/1h4v7lTHozBxVuLU67frM3yhgZWeGlaRZ/view?usp=sharing' target='_blank' rel="noreferrer" className='flex items-center p-2 rounded-md border-green-100 border-2'>
-                    Download&nbsp;CV&nbsp;<AiOutlineDownload />
-                </a>
-                <button onClick={showEmail} className='flex items-center p-2 rounded-md border-green-100 border-2'>
-                    Contact&nbsp;Me&nbsp;<TiContacts />
-                </button>
-                <a href='https://www.github.com/viralgupta/portfolio' target='_blank' rel="noreferrer" className='flex items-center p-2 rounded-md border-green-100 border-2'>
+            <div className='w-full flex flex-wrap justify-around text-sm'>
+                    <a href='https://drive.google.com/file/d/1h4v7lTHozBxVuLU67frM3yhgZWeGlaRZ/view?usp=sharing' target='_blank' rel="noreferrer" className='flex m-2 items-center p-2 rounded-md border-green-100 border-2'>
+                        Download&nbsp;CV&nbsp;<AiOutlineDownload />
+                    </a>
+                    <button onClick={showEmail} className='flex items-center p-2 m-2 rounded-md border-green-100 border-2'>
+                        Contact&nbsp;Me&nbsp;<TiContacts />
+                    </button>
+                <a href='https://www.github.com/viralgupta/portfolio' target='_blank' rel="noreferrer" className='flex items-center m-2 p-2 rounded-md border-green-100 border-2'>
                     Fork&nbsp;This&nbsp;Repo&nbsp;<CgGitFork />
                 </a>
             </div>

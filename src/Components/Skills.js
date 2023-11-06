@@ -20,22 +20,22 @@ function Toolstack() {
       </div>
       <div className="flex flex-wrap space-x-2 md:space-x-5 space-y-2 md:space-y-5">
         <span></span>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiAutodesk size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiAdobepremierepro size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiAdobeaftereffects size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiArduino size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiRaspberrypi size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiPython size={size} />
         </div>
       </div>

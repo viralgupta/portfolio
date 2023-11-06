@@ -41,58 +41,58 @@ function Techstack() {
       </div>
       <div className="flex flex-wrap space-x-2 space-y-2 md:space-x-5 md:space-y-5">
         <span></span>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiTypescript size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <BiLogoReact size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiNextdotjs size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <BiLogoTailwindCss size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <TbBrandThreejs size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiTensorflow size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <BiLogoNodejs size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiPrisma size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiRedis size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <BiLogoMongodb size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <BiLogoPostgresql size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <GrMysql size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <FaAws size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiAwslambda size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <BsFillBucketFill size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiSocketdotio size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <TbBrandOauth size={size} />
         </div>
-        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 hover:border-green-300">
+        <div xs={4} md={2} className="md:p-5 p-2 w-min rounded-md border hover:scale-105 duration-200 hover:border-green-300">
           <SiTrpc size={size} />
         </div>
       </div>
