@@ -8,13 +8,17 @@ from langchain.vectorstores.chroma import Chroma
 from langchain.chains import VectorDBQA
 import os
 
+app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
+
 def read_files_in_folder():
     data = []
+    sources = []
     file_count=0
 
     if not os.path.exists("./backend/data"):
         print(f"The folder ./backend/data does not exist.")
-        return data, file_count
+        return data, sources, file_count
 
     for filename in os.listdir("./backend/data"):
         file_path = os.path.join("./backend/data/", filename)
@@ -26,11 +30,13 @@ def read_files_in_folder():
             continue
 
         if os.path.isfile(file_path) and filename.endswith(".txt"):
+            sources.append(filename)
+
             with open(file_path, 'r', encoding='utf-8') as file:
                 file_content = file.read()
                 data.append(file_content)
 
-    return data, file_count
+    return data, sources, file_count
 
 def create_vector_db(text_chunks):
     embeddings = GooglePalmEmbeddings(google_api_key=os.environ['API_KEY'])
@@ -41,22 +47,29 @@ def create_vector_db(text_chunks):
 def get_vector_db():
     embeddings = GooglePalmEmbeddings(google_api_key=os.environ['API_KEY'])
     vector_store = Chroma(persist_directory="./backend/vector_store",embedding_function=embeddings)
-    print(vector_store.get())
     return vector_store
 
-def main():
+
+@app.route('/api/askme/<question>')
+def ask_me(question):
     load_dotenv()
-    data, sources, count = read_files_in_folder()
-    if count < len(sources):
-        store = create_vector_db(data, sources)
-        with open("./backend/data/file_count.txt", 'w', encoding='utf-8') as file:
-            file.write(str(len(sources)))
-    else:
-        store = get_vector_db()
-    print(store.get())
-    QA = VectorDBQA.from_chain_type(llm=GooglePalm(google_api_key=os.environ['API_KEY']), chain_type="stuff", vectorstore=store)
-    answer = QA({'query': "What all did you use to make digi booking?"}, return_only_outputs=True)
-    print(answer)
+    def generate():
+        data, sources, count = read_files_in_folder()
+        if count < len(sources):
+            store = create_vector_db(data)
+            with open("./backend/data/file_count.txt", 'w', encoding='utf-8') as file:
+                file.write(str(len(sources)))
+        else:
+            store = get_vector_db()
+        QA = VectorDBQA.from_chain_type(llm=GooglePalm(google_api_key=os.environ['API_KEY']), chain_type="stuff", vectorstore=store)
+        answer = QA({'query': question}, return_only_outputs=True)
+        words = answer['result'].split()
+        for word in words:
+            time.sleep(0.1)
+            yield f"data: {word}\n\n"
+    return Response(generate(), content_type='text/event-stream')
+
 
 if __name__ == "__main__":
-    main()
+    port = 5000
+    app.run(port=port, debug=True)
