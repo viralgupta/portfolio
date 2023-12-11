@@ -1,0 +1,16 @@
+Whatsapp bot project
+I developed the "WhatsApp Attendance Bot" for my college fellow mates in 2023, envisioning a platform that would seamlessly integrate with WhatsApp to simplify various college-related tasks. Students could effortlessly verify their identity using the /verify command, securely storing their credentials in an encrypted format within a MongoDB database. The bot featured a suite of functionalities, including the ability to check the mess menu (/mess), view the daily timetable (/tt), and monitor current attendance (/att). Notably, it also included an auto-attendance checking feature, notifying students promptly if their attendance was reduced.
+Technologically, the backend of the "WhatsApp Attendance Bot" harnessed MongoDB for efficient data storage, Node.js for server-side scripting, and AWS EC2 (t2.micro) for hosting the application. The interaction with WhatsApp was facilitated by "whatsapp-web.js," leveraging Puppeteer—a headless Chrome browser running WhatsApp Web—to seamlessly send and receive messages.
+The launch night of the "WhatsApp Attendance Bot" marked an unprecedented success, as the response from students surpassed all expectations:
+The "WhatsApp Attendance Bot" witnessed over 10,000 messages exchanged, showcasing immediate popularity.
+With the "WhatsApp Attendance Bot," more than 1,200 interactions demonstrated a high level of user involvement.
+Over 500 students promptly signed up for the service, emphasizing the immediate utility of the "WhatsApp Attendance Bot."
+At its peak, the "WhatsApp Attendance Bot" efficiently handled over 25 messages per second, reflecting its robust performance.
+The AWS EC2 (t2.micro) hosting the "WhatsApp Attendance Bot" experienced 100% CPU utilization, underlining the immense traffic load.
+MongoDB Atlas, the chosen database, successfully stored over 3MB of crucial data, highlighting the substantial volume of user interactions.
+However, the surge in traffic also brought unforeseen challenges for the "WhatsApp Attendance Bot":
+The "WhatsApp Attendance Bot" required swift implementation of bug fixes to maintain functionality under high demand.
+To address the issue of spam, the "WhatsApp Attendance Bot" introduced Redis DB overnight, providing a prompt solution to combat unwanted messages.
+AWS EC2 instances hosting the "WhatsApp Attendance Bot" faced multiple reboots to address crashes, a consequence of the unexpected load on the server.
+Despite these challenges, the overwhelming response underscored the "WhatsApp Attendance Bot's" immediate impact and popularity among students. The experience provided invaluable insights for future developments, emphasizing the importance of scalable and adaptive solutions to effectively manage high-traffic platforms.
+Regrettably, despite anticipating challenges, WhatsApp banned the number on the same day. The rapid success of the "WhatsApp Attendance Bot" underscored its immediate impact, necessitating on-the-fly adaptations to address unexpected technical hurdles. This experience provided valuable insights for future iterations, demonstrating the need for robust scalability and adaptive solutions in managing high-traffic platforms.

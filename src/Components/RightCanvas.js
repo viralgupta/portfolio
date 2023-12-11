@@ -16,7 +16,7 @@ const RightCanvas = () => {
             <Toolstack/>
             <Achievements/>
             <Projects/>
-            {/* <AskMe/> */}
+            <AskMe/>
             <Github/>
             <FinalSection/>
         </div>
