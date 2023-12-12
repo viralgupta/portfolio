@@ -24,7 +24,7 @@ const AskMe = () => {
             eventSource.onerror = function (event) {
                 eventSource.close();
                 setThinking(false)
-                setResponse(res => res == null ? "Some error occured, Please later :(" : res === "Model is thinking..." || res === "Some error occured, Please later :(" || res.length < 1 ? "Some error occured, Please later :(" : res)
+                setResponse(res => res == null ? "Some error occured, Please try again later :(" : res === "Model is thinking..." || res === "Some error occured, Please try again later :(" || res.length < 1 ? "Some error occured, Please try again later :(" : res)
             };
         }
     };

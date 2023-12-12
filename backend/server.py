@@ -52,7 +52,8 @@ def get_vector_db():
 
 @app.route('/api/askme/<question>')
 def ask_me(question):
-    load_dotenv()
+    load_dotenv(dotenv_path='./backend/.envfile')
+    print("dotenv", os.environ['API_KEY'])
     def generate():
         data, sources, count = read_files_in_folder()
         if count < len(sources):
