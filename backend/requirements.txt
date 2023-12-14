@@ -1,0 +1,6 @@
+langchain
+flask
+flask-cors
+python-dotenv
+chromadb
+google-generativeai

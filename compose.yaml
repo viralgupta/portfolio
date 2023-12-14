@@ -1,0 +1,25 @@
+version: '3'
+services:
+  portfolio-backend:
+    image: portfolio-backend-image:latest
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./backend/.envfile
+    volumes:
+      - vector-store:/app/data
+    build:
+      context: ./backend
+
+  portfolio-frontend:
+    image: portfolio-frontend-image:latest
+    ports:
+      - "3000:3000"
+    build:
+      context: ./frontend
+    depends_on:
+      - portfolio-backend
+
+volumes:
+  vector-store:
+    driver: local
