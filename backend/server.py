@@ -16,12 +16,12 @@ def read_files_in_folder():
     sources = []
     file_count=0
 
-    if not os.path.exists("./backend/data"):
-        print(f"The folder ./backend/data does not exist.")
+    if not os.path.exists("./data/files"):
+        print(f"The folder ./data does not exist.")
         return data, sources, file_count
 
-    for filename in os.listdir("./backend/data"):
-        file_path = os.path.join("./backend/data/", filename)
+    for filename in os.listdir("./data/files"):
+        file_path = os.path.join("./data/files/", filename)
 
         if filename == "file_count.txt":
             with open(file_path, 'r', encoding='utf-8') as file:
@@ -40,25 +40,25 @@ def read_files_in_folder():
 
 def create_vector_db(text_chunks):
     embeddings = GooglePalmEmbeddings(google_api_key=os.environ['API_KEY'])
-    vector_store = Chroma.from_texts(texts=text_chunks, embedding=embeddings, persist_directory="./backend/vector_store")
+    vector_store = Chroma.from_texts(texts=text_chunks, embedding=embeddings, persist_directory="./data/vector_store")
     vector_store.persist()
     return vector_store
 
 def get_vector_db():
     embeddings = GooglePalmEmbeddings(google_api_key=os.environ['API_KEY'])
-    vector_store = Chroma(persist_directory="./backend/vector_store",embedding_function=embeddings)
+    vector_store = Chroma(persist_directory="./data/vector_store",embedding_function=embeddings)
     return vector_store
 
 
 @app.route('/api/askme/<question>')
 def ask_me(question):
+    # load_dotenv(dotenv_path="./.envfile")
     load_dotenv()
-    # print("dotenv", os.environ['API_KEY'])
     def generate():
         data, sources, count = read_files_in_folder()
         if count < len(sources):
             store = create_vector_db(data)
-            with open("./backend/data/file_count.txt", 'w', encoding='utf-8') as file:
+            with open("./data/files/file_count.txt", 'w', encoding='utf-8') as file:
                 file.write(str(len(sources)))
         else:
             store = get_vector_db()
@@ -73,4 +73,4 @@ def ask_me(question):
 
 if __name__ == "__main__":
     port = 5000
-    app.run(host='0.0.0.0', port=port, debug=True)
+    app.run(host="0.0.0.0",port=port, debug=True)

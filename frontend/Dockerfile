@@ -1,5 +1,15 @@
 FROM node:18.14.0-slim
+
 WORKDIR /app
-COPY . /app
+
+COPY package*.json ./
+
 RUN npm install
-CMD npm build
+
+COPY . .
+
+RUN npm run build
+
+EXPOSE 3000
+
+CMD ["npm", "start"]

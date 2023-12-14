@@ -1,0 +1,45 @@
+# Ignore Node.js related files and folders
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore development and test files
+*.log
+*.bak
+*.swp
+.DS_Store
+*.test.js
+*.test.ts
+*.test.tsx
+__tests__
+test
+tests
+tests-*
+coverage
+
+# Ignore build files
+build
+dist
+
+# Ignore Docker-related files
+Dockerfile
+.dockerignore
+
+# Ignore editor-specific files
+.vscode
+.idea
+
+# Ignore local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore package manager lock files
+yarn.lock
+package-lock.json
+
+# Ignore miscellaneous files
+Thumbs.db
+desktop.ini
