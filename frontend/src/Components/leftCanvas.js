@@ -1,5 +1,5 @@
 import React from 'react'
-import Model from '../Me'
+import Model from './Me'
 import Type from "../Components/Type"
 
 const LeftCanvas = () => {
