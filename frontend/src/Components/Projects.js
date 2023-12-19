@@ -16,10 +16,10 @@ const Projects = () => {
             const regexlink = /!\[Screenshot[^)]*\]\(([^)]*)\)/;
             const matches = regexlink.exec(content);
             let link;
-            if(matches){
+            if (matches) {
                 link = matches[1]
             }
-            else{
+            else {
                 link = "https://dummyimage.com/723x403"
             }
             const text = content.split('![Screenshot')[0]
@@ -47,13 +47,9 @@ const Projects = () => {
                 {projects.length > 0 ?
                     projects.map((project, index) => {
                         return <ProjectCard key={index} Title={project.name} Tags={project.tags} Description={project.Description} Link={project.link} Imagelink={project.imageLink} />
-                    }) 
+                    })
                     : <dir className="font-bold text-3xl">Loading Projects...</dir>
                 }
-                {/* <ProjectCard Title={"Real Time Chess Website"} Tags={"Webdev"} Description={"Chess Website where you can search people, accept/reject requests to play, Made using Socket.io"} Link={"https://github.com/viralgupta/chess"} Imagelink={"Assets/Projects/chess.png"} />
-                <ProjectCard Title={"Youtube Subscription Only"} Tags={"Webdev"} Description={"Simple website to get your Youtube Subscription Feed, to help you get over distractions, Implemented using OAuth2.0"} Link={"https://youtube-subscription-only.vercel.app/"} Imagelink={"Assets/Projects/yso.png"} />
-                <ProjectCard Title={"Whatsapp Attendance Bot"} Tags={"WebDev"} Description={`Whatsapp bot to continously check attendance on your behalf and notify you when attendance has reduced! (Banned)`} Link={"https://github.com/viralgupta/Whatsapp-Attendance-Bot"} Imagelink={"/Assets/Projects/whatsappbot.png"} />
-                <ProjectCard Title={"Presence Checker Device"} Tags={"IOT"} Description={"Simple RaspberryPi with Infrared and LDR Sensors to check presence and push data to Webhook!"} Link={"https://github.com/viralgupta/Auto-Lights-RaspberryPi"} Imagelink={"Assets/Projects/raspberrypi.jpg"} /> */}
             </div>
         </>
     )
