@@ -24,7 +24,7 @@ const Projects = () => {
             }
             const text = content.split('![Screenshot')[0]
             setProjects(p => [...p, {
-                name: project.name,
+                name: project.name.replace('-', ' '),
                 tags: project.topics.join(' ').toUpperCase(),
                 Description: text,
                 link: project.homepage !== "" ? project.homepage : project.html_url,
