@@ -8,19 +8,19 @@ export const DATA = {
   location: "Mumbai, India",
   locationLink: "",
   description:
-    "20 year old something guy. Welcome to my space.",
+    "20 year old something guy.",
   summary:
-  "electrical, electronics & telecommunication student.\n" +
-  "a self taught programmer. i'm self taught, on most cases.\n" +
-  "like learning how to breathe.\n" +
-  "my passions range from art that involves painting, some instrument or math.\n" +
-  "art is something i like. i'm just not good at it.\n" +
-  "i was good, but then i lost touch.\n" +
-  "i also just read books for days on end.\n" +
-  "i like to build stuff using code.\n" +
-  "i play football, sometimes.\n" +
-  "i used to play good football, or so i like to think.\n" +
-  "i hope to be useful for this world and make my time here worthwhile.",
+  "electrical, electronics & telecommunication student. " +  
+  "a self taught programmer. i'm self taught, on most cases. " +
+  "like learning how to breathe." +
+  "my passions range from art that involves painting, some instrument or math. " +
+  "art is something i like. i'm just not good at it." +
+  "i was good, but then i lost touch." +
+  "i also just read books for days on end. " +
+  "i like to build stuff using code. " +
+  "i play football, sometimes. " +
+  "i used to play good football, or so i like to think. " +
+  "i hope to be useful for this world and make my time here worthwhile. ",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -30,6 +30,7 @@ export const DATA = {
     "Python",
     "Postgres",
     "C++",
+    "Shitposting",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },

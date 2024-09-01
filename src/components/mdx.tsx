@@ -46,7 +46,6 @@ function RoundedImage(props: any) {
   return <Image alt={props.alt} className="rounded-lg" {...props} />;
 }
 
-// This replaces rehype-slug
 function slugify(str: string) {
   return str
     .toString()
