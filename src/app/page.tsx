@@ -201,12 +201,12 @@ export default function Page() {
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm"></div>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                say hello{" "}
+                say hello on{" "}
                 <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
                 >
-                  on x dot com
+                  x dot com
                 </Link>{" "}
               </p>
             </div>
