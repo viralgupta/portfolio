@@ -12,15 +12,14 @@ export const DATA = {
   summary:
   "electrical, electronics & telecommunication student. " +  
   "a self taught programmer. i'm self taught, on most cases. " +
-  "like learning how to breathe." +
+  "like learning how to breathe. " +
   "my passions range from art that involves painting, some instrument or math. " +
-  "art is something i like. i'm just not good at it." +
-  "i was good, but then i lost touch." +
+  "art is something i like. i'm just not good at it. " +
+  "i was good, but then i lost touch. " +
   "i also just read books for days on end. " +
   "i like to build stuff using code. " +
   "i play football, sometimes. " +
-  "i used to play good football, or so i like to think. " +
-  "i hope to be useful for this world and make my time here worthwhile. ",
+  "i used to play good football, or so i like to think. ", 
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -85,6 +84,56 @@ export const DATA = {
       logoUrl: "/mu.png",
       start: "2022",
       end: "2026",
+    },
+  ],
+   projects: [
+    {
+      title: "Solana Developer Playground",
+      href: "https://soldev-playground.vercel.app/",
+      dates: "August 2024",
+      active: true,
+      description:
+        "A one stop destination for all the tools a blockchain developer on Solana might need.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://soldev-playground.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/sol-dev.png",
+      video:
+        "",
+    },
+    {
+      title: "Anon QnA",
+      href: "https://anon-qna.vercel.app/",
+      dates: "September 2024",
+      active: true,
+      description:
+        "Ask your friends questions anonymously. Answer them yourself.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "PostgreSQL",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://anon-qna.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/anon-qna.png",
+      video:
+        "",
     }
   ],
 } as const;
