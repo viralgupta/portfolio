@@ -98,7 +98,7 @@ export const DATA = {
       start: "November 2024",
       end: "Present",
       description:
-        "Working on the Solana blockchain. Building cool stuff. Helping others in the community do the same.",
+        "Received a $3000 grant from the Solana Foundation for solving inheritance through an escrow contract. Been a member ever since, helping the ecosystem grow.",
     },
   ],
   projects: [
