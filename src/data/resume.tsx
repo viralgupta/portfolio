@@ -86,7 +86,95 @@ export const DATA = {
       end: "2026",
     },
   ],
-   projects: [
+
+  work: [
+    {
+      company: "Superteam, Solana Foundation",
+      href: "https://superteam.fun/",
+      badges: [],
+      location: "Remote",
+      title: "Blockchain Developer | Grant Recipient",
+      logoUrl: "/superteam.png",
+      start: "November 2024",
+      end: "Present",
+      description:
+        "Working on the Solana blockchain. Building cool stuff. Helping others in the community do the same.",
+    },
+  ],
+  projects: [
+
+    {
+      title: "Eternal Key",
+      href: "https://eternalkey.xyz/",
+      dates: "November 2024",
+      active: true,
+      description:
+        "This is how you inherit your cryptocurrency. Backed by Solana Foundation.",
+      technologies: [
+        "Next.js",
+        "Rust",
+        "Anchor",
+        "Typescript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://eternalkey.xyz/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/eternalkey.png",
+      video:
+        "",
+    },
+    {
+      title: "Scene AI",
+      href: "https://scene-ai.amritwt.me/",
+      dates: "December 2024",
+      active: true,
+      description:
+        "Remove background from videos and replace it with a green screen. SaaS in works.",
+      technologies: [
+        "Next.js",
+        "Pytorch",
+        "Typescript",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://scene-ai.amritwt.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/scene.png",
+      video:
+        "",
+    },
+    {
+      title: "Real Time Chat",
+      href: "https://real-time-chat-liard.vercel.app/",
+      dates: "November 2024",
+      active: true,
+      description:
+        "A real time chat app that has temporary rooms. Scalable.",
+      technologies: [
+        "Next.js",
+        "Socket.io",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://real-time-chat-liard.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/rlc.png",
+      video:
+        "",
+    },
     {
       title: "Solana Developer Playground",
       href: "https://soldev-playground.vercel.app/",
