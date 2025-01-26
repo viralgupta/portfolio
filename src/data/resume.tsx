@@ -12,7 +12,7 @@ export const DATA = {
   summary:
   "tldr; hacker, builder, engineer. \n\n" +
   "i like code, read, math, phy, cs and whatever makes a dent in the universe. \n\n" +
-  "i deeply study art, history, football and great books. was pretty great all of it once upon a time. \n\n" +
+  "i deeply study art, history, football and great books. was pretty great at all of it once upon a time. \n\n" +
 
   "if you'd like to connect over a quick video chat, [book a meeting with me here!](https://cal.com/amrit-rai-oxdeqo/quick-chat)",
   avatarUrl: "/me.png",
