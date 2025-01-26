@@ -8,18 +8,13 @@ export const DATA = {
   location: "Mumbai, India",
   locationLink: "",
   description:
-    "20 year old something guy.",
+    "20 year old something guy",
   summary:
-  "electrical, electronics & telecommunication student. " +  
-  "a self taught programmer. i'm self taught, on most cases. " +
-  "like learning how to breathe. " +
-  "my passions range from art that involves painting, some instrument or math. " +
-  "art is something i like. i'm just not good at it. " +
-  "i was good, but then i lost touch. " +
-  "i also just read books for days on end. " +
-  "i like to build stuff using code. " +
-  "i play football, sometimes. " +
-  "i used to play good football, or so i like to think. ", 
+  "tldr; hacker, builder, engineer. \n\n" +
+  "i like code, read, math, phy, cs and whatever makes a dent in the universe. \n\n" +
+  "i deeply study art, history, football and great books. was pretty great all of it once upon a time. \n\n" +
+
+  "if you'd like to connect over a quick video chat, [book a meeting with me here!](https://cal.com/amrit-rai-oxdeqo/quick-chat)",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -89,11 +84,23 @@ export const DATA = {
 
   work: [
     {
+      company: "Cal.com",
+      href: "https://cal.com/",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer Intern",
+      logoUrl: "/cal.png",
+      start: "February 2025",
+      end: "Present",
+      description:
+        "Helping 1B people connect by 2031."
+    },
+    {
       company: "Superteam, Solana Foundation",
       href: "https://superteam.fun/",
       badges: [],
       location: "Remote",
-      title: "Blockchain Developer | Grant Recipient",
+      title: "Blockchain Engineer | Grant Recipient",
       logoUrl: "/superteam.png",
       start: "November 2024",
       end: "Present",
