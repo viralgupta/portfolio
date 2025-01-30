@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "20 year old something guy",
   summary:
-  "tldr; hacker, builder, engineer. \n\n" +
+  "tldr; hacker, polymath, engineer. \n\n" +
   "i like code, read, math, phy, cs and whatever makes a dent in the universe. \n\n" +
   "i deeply study art, history, football and great books. was pretty great at all of it once upon a time. \n\n" +
 
