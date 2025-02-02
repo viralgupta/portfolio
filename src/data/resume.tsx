@@ -93,7 +93,7 @@ export const DATA = {
       start: "February 2025",
       end: "Present",
       description:
-        "Helping 1B people connect by 2031."
+        "Helping 1B people connect by 2031 in my own small way."
     },
     {
       company: "Superteam, Solana Foundation",
