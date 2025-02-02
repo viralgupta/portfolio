@@ -75,7 +75,7 @@ export const DATA = {
     {
       school: "Mumbai University",
       href: "https://linkedin.com/in/amritwt",
-      degree: "Electrical, Electronics & Telecommunication (BTech)",
+      degree: "Electronics & Telecommunication",
       logoUrl: "/mu.png",
       start: "2022",
       end: "2026",
