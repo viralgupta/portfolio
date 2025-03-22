@@ -11,8 +11,8 @@ export const DATA = {
     "20 year old something guy",
   summary:
   "tldr; hacker, polymath, engineer. \n\n" +
-  "i like code, read, math, phy, cs and whatever makes a dent in the universe. \n\n" +
-  "i deeply study art, history, football and great books. was pretty great at all of it once upon a time. \n\n" +
+  "i like technology and deep science. they make a dent in the universe. \n\n" +
+  "i deeply study art, history, football and great books. was pretty great at all of it once. \n\n" +
 
   "if you'd like to connect over a quick video chat, [book a meeting with me here!](https://cal.com/amritwt/)",
   avatarUrl: "/me.png",
