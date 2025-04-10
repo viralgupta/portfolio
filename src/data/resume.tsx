@@ -20,8 +20,8 @@ export const DATA = {
     "React",
     "Next.js",
     "Typescript",
-    "Node.js",
     "Python",
+    "Pytorch",
     "Postgres",
     "C++",
     "Shitposting",
@@ -108,127 +108,127 @@ export const DATA = {
         "Received a $3000 grant from the Solana Foundation for solving inheritance through an escrow contract. Been a member ever since, helping the ecosystem grow.",
     },
   ],
-  projects: [
+  // projects: [
 
-    {
-      title: "Eternal Key",
-      href: "https://eternalkey.xyz/",
-      dates: "November 2024",
-      active: true,
-      description:
-        "This is how you inherit your cryptocurrency. Backed by Solana Foundation.",
-      technologies: [
-        "Next.js",
-        "Rust",
-        "Anchor",
-        "Typescript",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://eternalkey.xyz/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/eternalkey.png",
-      video:
-        "",
-    },
-    {
-      title: "Scene AI",
-      href: "https://scene-ai.amritwt.me/",
-      dates: "December 2024",
-      active: true,
-      description:
-        "Remove background from videos and replace it with a green screen. SaaS in works.",
-      technologies: [
-        "Next.js",
-        "Pytorch",
-        "Typescript",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://scene-ai.amritwt.me/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/scene.png",
-      video:
-        "",
-    },
-    {
-      title: "Real Time Chat",
-      href: "https://real-time-chat-liard.vercel.app/",
-      dates: "November 2024",
-      active: true,
-      description:
-        "A real time chat app that has temporary rooms. Scalable.",
-      technologies: [
-        "Next.js",
-        "Socket.io",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://real-time-chat-liard.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/rlc.png",
-      video:
-        "",
-    },
-    {
-      title: "Solana Developer Playground",
-      href: "https://soldev-playground.vercel.app/",
-      dates: "August 2024",
-      active: true,
-      description:
-        "A one stop destination for all the tools a blockchain developer on Solana might need.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://soldev-playground.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/sol-dev.png",
-      video:
-        "",
-    },
-    {
-      title: "Anon QnA",
-      href: "https://anon-qna.vercel.app/",
-      dates: "September 2024",
-      active: true,
-      description:
-        "Ask your friends questions anonymously. Answer them yourself.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "PostgreSQL",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://anon-qna.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/anon-qna.png",
-      video:
-        "",
-    }
-  ],
+  //   {
+  //     title: "Eternal Key",
+  //     href: "https://eternalkey.xyz/",
+  //     dates: "November 2024",
+  //     active: true,
+  //     description:
+  //       "This is how you inherit your cryptocurrency. Backed by Solana Foundation.",
+  //     technologies: [
+  //       "Next.js",
+  //       "Rust",
+  //       "Anchor",
+  //       "Typescript",
+  //     ],
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         href: "https://eternalkey.xyz/",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //     ],
+  //     image: "/eternalkey.png",
+  //     video:
+  //       "",
+  //   },
+  //   {
+  //     title: "Scene AI",
+  //     href: "https://scene-ai.amritwt.me/",
+  //     dates: "December 2024",
+  //     active: true,
+  //     description:
+  //       "Remove background from videos and replace it with a green screen. SaaS in works.",
+  //     technologies: [
+  //       "Next.js",
+  //       "Pytorch",
+  //       "Typescript",
+  //     ],
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         href: "https://scene-ai.amritwt.me/",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //     ],
+  //     image: "/scene.png",
+  //     video:
+  //       "",
+  //   },
+  //   {
+  //     title: "Real Time Chat",
+  //     href: "https://real-time-chat-liard.vercel.app/",
+  //     dates: "November 2024",
+  //     active: true,
+  //     description:
+  //       "A real time chat app that has temporary rooms. Scalable.",
+  //     technologies: [
+  //       "Next.js",
+  //       "Socket.io",
+  //       "Typescript",
+  //       "TailwindCSS",
+  //       "Shadcn UI",
+  //     ],
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         href: "https://real-time-chat-liard.vercel.app/",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //     ],
+  //     image: "/rlc.png",
+  //     video:
+  //       "",
+  //   },
+  //   {
+  //     title: "Solana Developer Playground",
+  //     href: "https://soldev-playground.vercel.app/",
+  //     dates: "August 2024",
+  //     active: true,
+  //     description:
+  //       "A one stop destination for all the tools a blockchain developer on Solana might need.",
+  //     technologies: [
+  //       "Next.js",
+  //       "Typescript",
+  //       "TailwindCSS",
+  //       "Shadcn UI",
+  //     ],
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         href: "https://soldev-playground.vercel.app/",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //     ],
+  //     image: "/sol-dev.png",
+  //     video:
+  //       "",
+  //   },
+  //   {
+  //     title: "Anon QnA",
+  //     href: "https://anon-qna.vercel.app/",
+  //     dates: "September 2024",
+  //     active: true,
+  //     description:
+  //       "Ask your friends questions anonymously. Answer them yourself.",
+  //     technologies: [
+  //       "Next.js",
+  //       "Typescript",
+  //       "TailwindCSS",
+  //       "PostgreSQL",
+  //     ],
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         href: "https://anon-qna.vercel.app/",
+  //         icon: <Icons.globe className="size-3" />,
+  //       },
+  //     ],
+  //     image: "/anon-qna.png",
+  //     video:
+  //       "",
+  //   }
+  // ],
 } as const;
