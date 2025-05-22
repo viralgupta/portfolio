@@ -12,9 +12,8 @@ export const DATA = {
   summary:
   "tldr; learnt by hacking around on the internet. \n\n" +
   "i like technology and deep science. they make a dent in the universe. \n\n" +
-  "i deeply study art, history, football and great books. was pretty great at all of it once. \n\n" +
+  "i deeply study art, history, football and great books. \n\n",
 
-  "if you'd like to connect over a quick video chat, [book a meeting with me here!](https://cal.com/amritwt/)",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -83,6 +82,18 @@ export const DATA = {
   ],
 
   work: [
+    {
+      company: "Google Deepmind",
+      href: "https://deepmind.google/",
+      badges: [],
+      location: "Remote",
+      title: "Contributor under Google Summer of Code",
+      logoUrl: "/dm.png",
+      start: "June 2025",
+      end: "August 2025",
+      description:
+        "Evaluating Gemini on an Open-Source Benchmark."
+    },
     {
       company: "Cal.com",
       href: "https://cal.com/",
