@@ -204,7 +204,7 @@ export default function Page() {
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
                 >
-                  x dot com
+                  𝕏
                 </Link>{" "}
               </p>
             </div>
