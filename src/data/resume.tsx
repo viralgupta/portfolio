@@ -102,7 +102,7 @@ export const DATA = {
       title: "Software Engineer Intern",
       logoUrl: "/cal.png",
       start: "February 2025",
-      end: "Present",
+      end: "May 2025",
       description:
         "Helping 1B people connect by 2031 in my own small way."
     },
