@@ -111,7 +111,7 @@ export const DATA = {
       href: "https://superteam.fun/",
       badges: [],
       location: "Remote",
-      title: "Blockchain Engineer | Grant Recipient",
+      title: "Member | Grant Recipient",
       logoUrl: "/superteam.png",
       start: "November 2024",
       end: "Present",
