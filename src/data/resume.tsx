@@ -83,6 +83,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Zero",
+      href: "https://0.email/",
+      badges: [],
+      location: "Remote",
+      title: "IC1 | Software Engineer",
+      logoUrl: "/zero.png",
+      start: "June 2025",
+      end: "Present",
+      description:
+        "Building the future of email."
+    },
+    {
       company: "Google Deepmind",
       href: "https://deepmind.google/",
       badges: [],
