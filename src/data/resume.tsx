@@ -95,12 +95,12 @@ export const DATA = {
         "Building the future of email."
     },
     {
-      company: "Google Deepmind",
-      href: "https://deepmind.google/",
+      company: "Google Summer of Code",
+      href: "https://summerofcode.withgoogle.com/",
       badges: [],
       location: "Remote",
-      title: "Contributor under Google Summer of Code",
-      logoUrl: "/dm.png",
+      title: "Contributor under Deepmind",
+      logoUrl: "/gsoc.png",
       start: "June 2025",
       end: "August 2025",
       description:
