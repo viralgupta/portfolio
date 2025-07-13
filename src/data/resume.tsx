@@ -77,7 +77,7 @@ export const DATA = {
       degree: "Electronics & Telecommunication",
       logoUrl: "/mu.png",
       start: "2022",
-      end: "2026",
+      end: "2025 (Dropped out)",
     },
   ],
 
