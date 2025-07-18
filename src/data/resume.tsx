@@ -99,12 +99,12 @@ export const DATA = {
       href: "https://summerofcode.withgoogle.com/",
       badges: [],
       location: "Remote",
-      title: "Contributor under Deepmind - didn't go past midterm eval.",
+      title: "Contributor under Deepmind.",
       logoUrl: "/gsoc.png",
       start: "May 2025",
       end: "July 2025",
       description:
-        "Evaluating Gemini on an Open-Source Benchmark."
+        "Evaluating Gemini on an Open-Source Benchmark. Didn't go past midterm eval."
     },
     {
       company: "Cal.com",
