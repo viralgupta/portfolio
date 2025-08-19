@@ -90,7 +90,7 @@ export const DATA = {
       title: "IC1 | Software Engineer",
       logoUrl: "/zero.png",
       start: "June 2025",
-      end: "Present",
+      end: "August 2025",
       description:
         "Building the future of email."
     },
