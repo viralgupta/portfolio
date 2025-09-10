@@ -83,28 +83,40 @@ export const DATA = {
 
   work: [
     {
+      company: "Cracked Devs",
+      href: "https://crackeddevs.com/",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl: "/cd.png",
+      start: "August 2025",
+      end: "Present",
+      description:
+        "Making apps at this studio!"
+    },
+    {
       company: "Zero",
       href: "https://0.email/",
       badges: [],
       location: "Remote",
-      title: "IC1 | Software Engineer",
+      title: "Software Engineer",
       logoUrl: "/zero.png",
       start: "June 2025",
       end: "August 2025",
       description:
-        "Building the future of email."
+        "Let AI handle your email."
     },
     {
       company: "Google Summer of Code",
       href: "https://summerofcode.withgoogle.com/",
       badges: [],
       location: "Remote",
-      title: "Contributor under Deepmind.",
+      title: "Contributor under Deepmind",
       logoUrl: "/gsoc.png",
       start: "May 2025",
       end: "July 2025",
       description:
-        "Evaluating Gemini on an Open-Source Benchmark. Didn't go past midterm eval."
+        "Evaluating Gemini on an Open-Source Benchmark."
     },
     {
       company: "Cal.com",
