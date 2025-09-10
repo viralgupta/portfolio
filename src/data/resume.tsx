@@ -11,8 +11,7 @@ export const DATA = {
     "20 year old something guy",
   summary:
   "tldr; learnt by hacking around on the internet. \n\n" +
-  "i like technology and deep science. they make a dent in the universe. \n\n" +
-  "i deeply study art, history, football and great books. \n\n",
+  "i like technology and deep science. they make a dent in the universe. \n\n",
 
   avatarUrl: "/me.png",
   skills: [
