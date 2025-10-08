@@ -7,22 +7,24 @@ export const DATA = {
   url: "https://amritwt.me",
   location: "Mumbai, India",
   locationLink: "",
+  birthDate: new Date("2004-04-06"), 
   description:
     "20 year old something guy",
   summary:
   "tldr; learnt by hacking around on the internet. \n\n" +
-  "i like technology and deep science. they make a dent in the universe. \n\n",
+  "i like technology and deep science. they make a dent in the universe. \n\n" +
+  "i write code, algorithmically trade and try to make zero mrr apps. \n\n" +
+  "if you want to know more about me, [here are somethings i believe in](/blog/things-i-believe).",
 
   avatarUrl: "/me.png",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Python",
-    "Pytorch",
-    "Postgres",
-    "C++",
-    "Shitposting",
+    "react",
+    "next.js",
+    "typescript",
+    "python",
+    "postgres",
+    "shitposting",
+    "can do hundred pushups"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -71,75 +73,75 @@ export const DATA = {
 
   education: [
     {
-      school: "Mumbai University",
+      school: "mumbai university",
       href: "https://linkedin.com/in/amritwt",
-      degree: "Electronics & Telecommunication",
+      degree: "electronics & telecommunication",
       logoUrl: "/mu.png",
       start: "2022",
-      end: "2025 (Dropped out)",
+      end: "2025 (dropped out)",
     },
   ],
 
   work: [
     {
-      company: "Cracked Devs",
+      company: "cracked devs",
       href: "https://crackeddevs.com/",
       badges: [],
-      location: "Remote",
-      title: "Software Engineer",
+      location: "remote",
+      title: "software engineer",
       logoUrl: "/cd.png",
-      start: "August 2025",
-      end: "Present",
+      start: "august 2025",
+      end: "present",
       description:
-        "Making apps at this studio!"
+        "making apps at this studio!"
     },
     {
-      company: "Zero",
+      company: "zero",
       href: "https://0.email/",
       badges: [],
-      location: "Remote",
-      title: "Software Engineer",
+      location: "remote",
+      title: "software engineer",
       logoUrl: "/zero.png",
-      start: "June 2025",
-      end: "August 2025",
+      start: "june 2025",
+      end: "august 2025",
       description:
-        "Let AI handle your email."
+        "let ai handle your email."
     },
     {
-      company: "Google Summer of Code",
+      company: "google summer of code",
       href: "https://summerofcode.withgoogle.com/",
       badges: [],
-      location: "Remote",
-      title: "Contributor under Deepmind",
+      location: "remote",
+      title: "contributor under deepmind",
       logoUrl: "/gsoc.png",
-      start: "May 2025",
-      end: "July 2025",
+      start: "may 2025",
+      end: "july 2025",
       description:
-        "Evaluating Gemini on an Open-Source Benchmark."
+        "evaluating gemini on an open-source benchmark."
     },
     {
-      company: "Cal.com",
+      company: "cal.com",
       href: "https://cal.com/",
       badges: [],
-      location: "Remote",
-      title: "Software Engineer Intern",
+      location: "remote",
+      title: "software engineer intern",
       logoUrl: "/cal.png",
-      start: "February 2025",
-      end: "May 2025",
+      start: "february 2025",
+      end: "may 2025",
       description:
-        "Helping 1B people connect by 2031 in my own small way."
+        "the best way to schedule meetings."
     },
     {
-      company: "Superteam, Solana Foundation",
+      company: "superteam, solana foundation",
       href: "https://superteam.fun/",
       badges: [],
-      location: "Remote",
-      title: "Member | Grant Recipient",
+      location: "remote",
+      title: "member | grant recipient",
       logoUrl: "/superteam.png",
-      start: "November 2024",
-      end: "Present",
+      start: "november 2024",
+      end: "september 2025",
       description:
-        "Received a $3000 grant from the Solana Foundation for solving inheritance through an escrow contract. Been a member ever since, helping the ecosystem grow.",
+        "received a $3000 grant from the solana foundation for solving inheritance through an escrow contract.",
     },
   ],
   // projects: [

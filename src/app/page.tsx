@@ -7,6 +7,7 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { EmailSignupForm } from "@/components/EmailSignupForm";
+import { RealTimeAge } from "@/components/RealTimeAge";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -21,13 +22,13 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hi, Amrit here`}
+                text={`hi, amrit here`}
               />
-              <BlurFadeText
-                className="max-w-[600px] md:text-xl"
-                delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <div className="max-w-[600px] md:text-sm">
+                  been here since <RealTimeAge birthDate={DATA.birthDate} /> years
+                </div>
+              </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -40,7 +41,7 @@ export default function Page() {
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className="text-xl font-bold">about</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
@@ -51,7 +52,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Cool places I worked at</h2>
+            <h2 className="text-xl font-bold">cool places I worked at</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
@@ -76,7 +77,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold">Education</h2>
+            <h2 className="text-xl font-bold">education</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -137,11 +138,11 @@ export default function Page() {
       </section> */}
       <section id="newsletter">
         <BlurFade delay={BLUR_FADE_DELAY * 8.5}>
-          <h2 className="text-xl font-bold text-center sm:text-left">Stay Updated</h2>
+          <h2 className="text-xl font-bold text-center sm:text-left">stay updated</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 8.75}>
           <p className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert text-center sm:text-left">
-            Subscribe to my email list. I do not spam, ever.
+            subscribe to my email list
           </p>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -151,7 +152,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9.25}>
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-xl font-bold">skills</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
