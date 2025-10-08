@@ -13,7 +13,7 @@ export const DATA = {
   summary:
   "tldr; learnt by hacking around on the internet. \n\n" +
   "i like technology and deep science. they make a dent in the universe. \n\n" +
-  "i write code, algorithmically trade and try to make zero mrr apps. \n\n" +
+  "i write code, algorithmically trade and make zero mrr apps. \n\n" +
   "if you want to know more about me, [here are somethings i believe in](/blog/things-i-believe).",
 
   avatarUrl: "/me.png",
@@ -88,7 +88,7 @@ export const DATA = {
       href: "https://crackeddevs.com/",
       badges: [],
       location: "remote",
-      title: "software engineer",
+      title: "software engineer | fulltime",
       logoUrl: "/cd.png",
       start: "august 2025",
       end: "present",
@@ -100,7 +100,7 @@ export const DATA = {
       href: "https://0.email/",
       badges: [],
       location: "remote",
-      title: "software engineer",
+      title: "software engineer | fulltime",
       logoUrl: "/zero.png",
       start: "june 2025",
       end: "august 2025",
@@ -112,7 +112,7 @@ export const DATA = {
       href: "https://summerofcode.withgoogle.com/",
       badges: [],
       location: "remote",
-      title: "contributor under deepmind",
+      title: "contributor under google deepmind",
       logoUrl: "/gsoc.png",
       start: "may 2025",
       end: "july 2025",
@@ -124,7 +124,7 @@ export const DATA = {
       href: "https://cal.com/",
       badges: [],
       location: "remote",
-      title: "software engineer intern",
+      title: "software engineer | intern",
       logoUrl: "/cal.png",
       start: "february 2025",
       end: "may 2025",
