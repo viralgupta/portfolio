@@ -26,7 +26,7 @@ export default function Page() {
               />
               <BlurFade delay={BLUR_FADE_DELAY}>
                 <div className="max-w-[600px] md:text-sm">
-                  been here since <RealTimeAge birthDate={DATA.birthDate} /> years
+                  been here for <RealTimeAge birthDate={DATA.birthDate} /> years
                 </div>
               </BlurFade>
             </div>

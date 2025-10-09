@@ -13,7 +13,7 @@ export const DATA = {
   summary:
   "tldr; learnt by hacking around on the internet. \n\n" +
   "i like technology and deep science. they make a dent in the universe. \n\n" +
-  "i write code, algorithmically trade and make zero mrr apps. \n\n" +
+  "i write code and make zero mrr apps. \n\n" +
   "if you want to know more about me, [here are somethings i believe in](/blog/things-i-believe).",
 
   avatarUrl: "/me.png",
