@@ -84,6 +84,18 @@ export const DATA = {
 
   work: [
     {
+      company: "whop",
+      href: "https://whop.com/",
+      badges: [],
+      location: "remote",
+      title: "software engineer | fulltime",
+      logoUrl: "/whop.png",
+      start: "march 2026",
+      end: "present",
+      description:
+        "building whop finance."
+    },
+    {
       company: "cracked devs",
       href: "https://crackeddevs.com/",
       badges: [],
