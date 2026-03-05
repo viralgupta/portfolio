@@ -103,17 +103,17 @@ export const DATA = {
       title: "software engineer | fulltime",
       logoUrl: "/cd.png",
       start: "august 2025",
-      end: "present",
+      end: "feb 2026",
       description:
         "making apps at this studio!"
     },
     {
-      company: "zero",
+      company: "orchid",
       href: "https://0.email/",
       badges: [],
       location: "remote",
       title: "software engineer | fulltime",
-      logoUrl: "/zero.png",
+      logoUrl: "/orchid.png",
       start: "june 2025",
       end: "august 2025",
       description:
