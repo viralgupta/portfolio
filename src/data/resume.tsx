@@ -12,9 +12,11 @@ export const DATA = {
     "20 year old something guy",
   summary:
   "tldr; learnt by hacking around on the internet. \n\n" +
-  "i like technology and deep science. they make a dent in the universe. \n\n" +
-  "i write code and make zero mrr apps. \n\n" +
-  "if you want to know more about me, [here are somethings i believe in](/blog/things-i-believe).",
+  "I like technology. It makes a dent in the universe. \n\n" +
+  "I write code agentically. A lot of it.\n\n" +
+  "Speed ran content across socials when I was young.\n\n" +
+  "Right now I just build stuff!\n\n" +
+  "If you want to know more about me, [here are somethings I believe in](/blog/things-i-believe).",
 
   avatarUrl: "/me.png",
   skills: [
