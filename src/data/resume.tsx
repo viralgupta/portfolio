@@ -92,7 +92,7 @@ export const DATA = {
       location: "remote",
       title: "software engineer | fulltime",
       logoUrl: "/whop.png",
-      start: "march 2026",
+      start: "feb 2026",
       end: "present",
       description:
         "building whop finance."
