@@ -2,14 +2,14 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Amrit Rai",
-  initials: "AR",
-  url: "https://amritwt.me",
-  location: "Mumbai, India",
+  name: "Viral Gupta",
+  initials: "VG",
+  url: "https://viralgupta.com",
+  location: "UP, India",
   locationLink: "",
-  birthDate: new Date("2004-04-06"), 
+  birthDate: new Date("2004-05-21"), 
   description:
-    "20 year old something guy",
+    `22 year old something guy`,
   summary:
   "tldr; learnt by hacking around on the internet. \n\n" +
   "I like technology. It makes a dent in the universe. \n\n" +
@@ -23,9 +23,8 @@ export const DATA = {
     "react",
     "next.js",
     "typescript",
-    "python",
     "postgres",
-    "shitposting",
+    "won 6 hackathons",
     "can do hundred pushups"
   ],
   navbar: [
@@ -33,26 +32,26 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "iamamrit27@gmail.com",
+    email: "guptaviral0@gmail.com",
     tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/retrogtx",
+        url: "https://github.com/viralgupta",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/amritwt",
+        url: "https://www.linkedin.com/in/viral-gupta-824b87226/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/amritwt",
+        url: "https://x.com/Viralgupta4",
         icon: Icons.x,
 
         navbar: true,
@@ -65,7 +64,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:iamamrit27@gmail.com",
+        url: "mailto:guptaviral0@gmail.com",
         icon: Icons.email,
 
         navbar: true,
@@ -75,210 +74,39 @@ export const DATA = {
 
   education: [
     {
-      school: "mumbai university",
-      href: "https://linkedin.com/in/amritwt",
-      degree: "electronics & telecommunication",
-      logoUrl: "/mu.png",
+      school: "srm institute of science and technology",
+      href: "https://www.srmist.edu.in/",
+      degree: "b.tech computer science, software engineering | 9.11 cgpa",
+      logoUrl: "/srm.webp",
       start: "2022",
-      end: "2025 (dropped out)",
+      end: "2026",
     },
   ],
 
   work: [
     {
-      company: "whop",
-      href: "https://whop.com/",
+      company: "indus",
+      href: "https://investindus.com/",
       badges: [],
       location: "remote",
-      title: "software engineer | fulltime",
-      logoUrl: "/whop.png",
-      start: "feb 2026",
+      title: "full stack engineer | fulltime",
+      logoUrl: "/indus.png",
+      start: "february 2025",
       end: "present",
       description:
-        "building whop finance."
-    },
-    {
-      company: "cracked devs",
-      href: "https://crackeddevs.com/",
-      badges: [],
-      location: "remote",
-      title: "software engineer | fulltime",
-      logoUrl: "/cd.png",
-      start: "august 2025",
-      end: "feb 2026",
-      description:
-        "making apps at this studio!"
-    },
-    {
-      company: "orchid",
-      href: "https://0.email/",
-      badges: [],
-      location: "remote",
-      title: "software engineer | fulltime",
-      logoUrl: "/orchid.png",
-      start: "june 2025",
-      end: "august 2025",
-      description:
-        "let ai handle your email."
+        "took the landing page from 45 to 92 on pagespeed by rewriting it in next.js, then made it move with framer motion and glsl. shipped payments from scratch, pulled 8+ services off kubernetes onto serverless and knocked ~45% off the cloud bill, and cut build times ~80% with an nx monorepo running on bun. built the whole web app from an empty folder to 1000+ people using it every month.",
     },
     {
       company: "google summer of code",
-      href: "https://summerofcode.withgoogle.com/",
+      href: "https://summerofcode.withgoogle.com/archive/2024/projects/jznxtKv0",
       badges: [],
       location: "remote",
-      title: "contributor under google deepmind",
+      title: "contributor at neutralinojs",
       logoUrl: "/gsoc.png",
-      start: "may 2025",
-      end: "july 2025",
+      start: "may 2024",
+      end: "august 2024",
       description:
-        "evaluating gemini on an open-source benchmark."
-    },
-    {
-      company: "cal.com",
-      href: "https://cal.com/",
-      badges: [],
-      location: "remote",
-      title: "software engineer | intern",
-      logoUrl: "/cal.png",
-      start: "february 2025",
-      end: "may 2025",
-      description:
-        "the best way to schedule meetings."
-    },
-    {
-      company: "superteam, solana foundation",
-      href: "https://superteam.fun/",
-      badges: [],
-      location: "remote",
-      title: "member | grant recipient",
-      logoUrl: "/superteam.png",
-      start: "november 2024",
-      end: "september 2025",
-      description:
-        "received a $3000 grant from the solana foundation for solving inheritance through an escrow contract.",
+        "wrote an npm package from scratch that lets you run node.js inside desktop apps. ci, docs, the whole thing, shipped to a project real people build on.",
     },
   ],
-  // projects: [
-
-  //   {
-  //     title: "Eternal Key",
-  //     href: "https://eternalkey.xyz/",
-  //     dates: "November 2024",
-  //     active: true,
-  //     description:
-  //       "This is how you inherit your cryptocurrency. Backed by Solana Foundation.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Rust",
-  //       "Anchor",
-  //       "Typescript",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://eternalkey.xyz/",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //     ],
-  //     image: "/eternalkey.png",
-  //     video:
-  //       "",
-  //   },
-  //   {
-  //     title: "Scene AI",
-  //     href: "https://scene-ai.amritwt.me/",
-  //     dates: "December 2024",
-  //     active: true,
-  //     description:
-  //       "Remove background from videos and replace it with a green screen. SaaS in works.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Pytorch",
-  //       "Typescript",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://scene-ai.amritwt.me/",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //     ],
-  //     image: "/scene.png",
-  //     video:
-  //       "",
-  //   },
-  //   {
-  //     title: "Real Time Chat",
-  //     href: "https://real-time-chat-liard.vercel.app/",
-  //     dates: "November 2024",
-  //     active: true,
-  //     description:
-  //       "A real time chat app that has temporary rooms. Scalable.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Socket.io",
-  //       "Typescript",
-  //       "TailwindCSS",
-  //       "Shadcn UI",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://real-time-chat-liard.vercel.app/",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //     ],
-  //     image: "/rlc.png",
-  //     video:
-  //       "",
-  //   },
-  //   {
-  //     title: "Solana Developer Playground",
-  //     href: "https://soldev-playground.vercel.app/",
-  //     dates: "August 2024",
-  //     active: true,
-  //     description:
-  //       "A one stop destination for all the tools a blockchain developer on Solana might need.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Typescript",
-  //       "TailwindCSS",
-  //       "Shadcn UI",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://soldev-playground.vercel.app/",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //     ],
-  //     image: "/sol-dev.png",
-  //     video:
-  //       "",
-  //   },
-  //   {
-  //     title: "Anon QnA",
-  //     href: "https://anon-qna.vercel.app/",
-  //     dates: "September 2024",
-  //     active: true,
-  //     description:
-  //       "Ask your friends questions anonymously. Answer them yourself.",
-  //     technologies: [
-  //       "Next.js",
-  //       "Typescript",
-  //       "TailwindCSS",
-  //       "PostgreSQL",
-  //     ],
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         href: "https://anon-qna.vercel.app/",
-  //         icon: <Icons.globe className="size-3" />,
-  //       },
-  //     ],
-  //     image: "/anon-qna.png",
-  //     video:
-  //       "",
-  //   }
-  // ],
 } as const;
