@@ -11,7 +11,7 @@ interface LastActivityProps {
 function formatRelative(isoTimestamp: string) {
   const seconds = Math.max(
     0,
-    Math.floor((Date.now() - new Date(isoTimestamp).getTime()) / 1000)
+    Math.floor((Date.now() - new Date(isoTimestamp).getTime()) / 1000),
   );
 
   return `${seconds.toLocaleString("en-US")} second${
@@ -46,7 +46,7 @@ export function LastActivity({ href }: LastActivityProps) {
     setLabel(formatRelative(timestamp));
     const intervalId = setInterval(
       () => setLabel(formatRelative(timestamp)),
-      1000
+      1000,
     );
 
     return () => clearInterval(intervalId);
@@ -60,10 +60,10 @@ export function LastActivity({ href }: LastActivityProps) {
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-1 transition-colors hover:text-foreground"
+        className="transition-colors hover:text-foreground"
       >
-        last activity: <span className="tabular-nums">{label}</span>
-        <ExternalLinkIcon className="size-3" />
+        last&nbsp;activity <span className="tabular-nums">{label}</span>
+        <ExternalLinkIcon className="ml-1 inline-block size-3 align-middle" />
       </Link>
     </div>
   );
