@@ -139,7 +139,7 @@ export default function Page() {
           </div>
         </div>
       </section> */}
-      <section id="newsletter">
+      {/* <section id="newsletter">
         <BlurFade delay={BLUR_FADE_DELAY * 8.5}>
           <h2 className="text-xl font-bold text-center sm:text-left">stay updated</h2>
         </BlurFade>
@@ -148,7 +148,7 @@ export default function Page() {
             subscribe to my email list
           </p>
         </BlurFade>
-      </section>
+      </section> */}
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9.25}>
