@@ -50,6 +50,8 @@ export async function GET() {
       return NextResponse.json({ lastActivity: null, repo: null });
     }
 
+    console.log(`Last activity: ${latest.created_at} (${latest.type})`);
+
     return NextResponse.json({
       lastActivity: latest.created_at,
       repo: latest.repo?.name ?? null,
